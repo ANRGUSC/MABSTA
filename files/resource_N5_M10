@@ -1,0 +1,9 @@
+numDevices 10 // number of available devices in the network
+unitTaskRangeLow 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.3 0.3 0.3 0.3 0.3 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.3 0.3 0.3 0.3 0.3 // min unit execution time
+unitTaskRangeHigh 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 1.0 1.0 1.0 1.0 1.0 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 1.0 1.0 1.0 1.0 1.0 // max unit execution time
+unitDataRangeLow 0 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.4 0 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.3 0.3 0 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.2 0.2 0.2 0 0.2 0.1 0.1 0.1 0.1 0 // min unit data transmission time
+unitDataRangeHigh 0 1.0 1.0 1.0 1.0 0.9 0 0.9 0.9 0.9 0.8 0.8 0 0.8 0.8 0.7 0.7 0.7 0.7 0 // max unit data transmission time
+marProbServerLow 0.7 0.7 0.7 0.7 0.7 0.8 0.8 0.8 0.8 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 // the probability of each device to stay in low state
+marProbServerHigh 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.9 0.9 0.9 0.9 0.9 // the probability of each device to stay in high state
+marProbChannelLow 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 // the probability of each channel to stay in low state
+marProbChannelHigh 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 // the probability of each channel to stay in high state

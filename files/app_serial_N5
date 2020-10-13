@@ -1,0 +1,2 @@
+numTasks 5 // number of tasks of the application
+dataSizes 1:2:1 2:3:1 3:4:1 4:5:1 // data sizes necessary to be transmitted between each task
